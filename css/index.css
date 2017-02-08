@@ -1,0 +1,43 @@
+body {
+    -webkit-touch-callout: none;/* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;/* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;/* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFFFFF;
+    font-family:verdana, georgia, helvetica, serif, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:20px 0px 0px 0px;
+    width:100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.app {
+    text-align:center;
+}
+
+.cabecera {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #000000;
+}
+
+.pie {
+    background-color: #FFFFFF;
+    border-top: 1px solid #000000;
+    bottom: 0px;
+    display: table;
+    font-weight: bold;
+    height: 26px;
+    position: fixed;
+    width: 100%;
+}
+
+.pie div {
+    display: table-cell;
+    height: 26px;
+    vertical-align: middle;
+    width: 25%;
+}
